@@ -73,8 +73,8 @@ jobs:
           # 例如:
 
           cat >> .config <<EOF
-            CONFIG_MODULES=y
-            CONFIG_HAVE_DOT_CONFIG=y
+			CONFIG_MODULES=y
+			CONFIG_HAVE_DOT_CONFIG=y
 			CONFIG_TARGET_ramips=y
 			CONFIG_TARGET_ramips_mt7621=y
 			CONFIG_TARGET_ramips_mt7621_DEVICE_xiaomi_mi-router-3g=y
